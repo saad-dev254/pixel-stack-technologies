@@ -101,10 +101,10 @@ export const blogs = [
 ];
 
 export const insights = [
-  { tag: "Case Study", title: "E-commerce Platform Scales to 50K Monthly Transactions", bg: "linear-gradient(135deg, #0a3d3a, #0ebab1)", href: "/case-studies" },
-  { tag: "Blog", title: "How Cloud Computing Can Transform Small Businesses", bg: "linear-gradient(135deg, #1a1a2e, #16213e)", href: "/learning" },
-  { tag: "Blog", title: "Custom Web Application Development: Everything You Need to Know", bg: "linear-gradient(135deg, #0d2137, #0ebab1)", href: "/learning" },
-  { tag: "Case Study", title: "Fintech AI Platform Secures $1M+ in Seed Funding", bg: "linear-gradient(135deg, #0c405f, #0ebab1)", href: "/case-studies" },
+  { tag: "Case Study", image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/677e26a1461d4ae7dc6f5f9f_Recurate%402x-100.avif", title: "E-commerce Platform Scales to 50K Monthly Transactions", bg: "linear-gradient(135deg, #0a3d3a, #0ebab1)", href: "/case-studies" },
+  { tag: "Blog", image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/67321c409e575f0f0e264d3f_linkedin-sales-solutions--AXDunSs-n4-unsplash.webp", title: "How Cloud Computing Can Transform Small Businesses", bg: "linear-gradient(135deg, #1a1a2e, #16213e)", href: "/learning" },
+  { tag: "Blog", image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/674703369b972f18df57ceb8_Custom%20Web%20Application%20Development.avif", title: "Custom Web Application Development: Everything You Need to Know", bg: "linear-gradient(135deg, #0d2137, #0ebab1)", href: "/learning" },
+  { tag: "Case Study", image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/674703370ee5ac69d196b247_How%20Generative%20AI%20is%20Transforming%20Business%20Operations.avif", title: "Fintech AI Platform Secures $1M+ in Seed Funding", bg: "linear-gradient(135deg, #0c405f, #0ebab1)", href: "/case-studies" },
 ];
 
 export const leadership = [

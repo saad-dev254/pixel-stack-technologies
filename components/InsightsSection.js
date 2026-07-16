@@ -10,7 +10,9 @@ export default function InsightsSection() {
         <div className="insights-grid">
           {insights.map((item) => (
             <article className="insight-card" key={item.title}>
-              <div className="insight-thumb" style={{ background: item.bg }} />
+              <div className="insight-thumb" style={{ background: item.bg }} >
+                <img src={item?.image_url} loading="lazy" alt="case study" class="full-image" />
+              </div>
               <div className="insight-body">
                 <span className="insight-tag">{item.tag}</span>
                 <h3>{item.title}</h3>

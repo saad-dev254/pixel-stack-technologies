@@ -12,8 +12,7 @@ import { insights } from "../data/content";
 
 // Add an innovation video for the top slider/hero
 const INNOVATION_VIDEO_URL =
-  "https://assets.mixkit.co/videos/49845/49845-720.mp4";
-  "https://assets.mixkit.co/videos/49846/49846-720.mp4"
+  "/assets/videos/video-2.mp4";
 
 const stats = [
   { number: "150+", label: "Successful Projects" },
@@ -30,9 +29,33 @@ const techStacks = {
   DevOps: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"],
 };
 
+// const clients = [
+//   "TECHCORP", "INNOVATE", "GLOBALSYS", "NEXUS", "CLOUDFIRST",
+//   "DATADRIVE", "SMARTFLOW", "PIXELWAVE", "TECHCORP", "INNOVATE",
+// ];
 const clients = [
-  "TECHCORP", "INNOVATE", "GLOBALSYS", "NEXUS", "CLOUDFIRST",
-  "DATADRIVE", "SMARTFLOW", "PIXELWAVE", "TECHCORP", "INNOVATE",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab00f71b4404c713d8c89_logos-01.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab02c9fab945df8ecd652_logos-02.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab044d9281ad7b01eb05c_logos-07.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab044e11c2d9938bf9843_logos-10.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab044ede52c6b4d634fb7_logos-03.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab044c1ce06c8f1952a3b_logos-08.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab0445968796da62019a4_logos-09.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab04553466eabd27bbbc0_logos-06.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab04558fcd86ef58c2cf8_logos-04.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab0454d364ffcf1b1a924_logos-05.webp",
+];
+const clients_reverse = [
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4db1db91836e20c6bba_logos-18.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4dbbfe90b70d91933ac_logos-25.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4dc5827a724a5d56c50_logos-23.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4dbe11c2d9938c27d18_logos-15.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4db8f558dae7c1917f1_logos-16.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4db78a325afc063f717_logos-14.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4db1cc957344f5bbab1_logos-17.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4db772f8afe8c783c4a_logos-21.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4db94914b645c6a5cd3_logos-13.webp",
+  "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/685ab4db95f98cac6b04ac5c_logos-19.webp",
 ];
 
 export default function Home() {
@@ -86,8 +109,31 @@ export default function Home() {
 
       <section className="marquee-section">
         <div className="marquee-track">
-          {[...clients, ...clients].map((client, i) => (
+          {/* {[...clients, ...clients].map((client, i) => (
             <span key={i} className="marquee-item">{client}</span>
+          ))} */}
+          {[...clients, ...clients].map((client, i) => (
+            <span key={i} className="marquee-item">
+              <img
+                src={client}
+                alt={"logo"}
+                className="marquee-client-logo"
+                loading="lazy"
+              />
+            </span>
+          ))}
+        </div>
+
+        <div className="marquee-track-reverse">
+          {[...clients_reverse, ...clients_reverse].map((client, i) => (
+            <span key={i} className="marquee-item">
+              <img
+                src={client}
+                alt={"logo"}
+                className="marquee-client-logo"
+                loading="lazy"
+              />
+            </span>
           ))}
         </div>
       </section>
@@ -103,6 +149,7 @@ export default function Home() {
               <Link href={`/services/${s.slug}`} className="service-card-link" key={s.slug}>
                 <article className="service-card">
                   <div className={`service-card-bg ${s.bg}`} />
+                  <img src={`/assets/images/${s?.image_title}`} loading="lazy" alt={s?.title} className="absolute-full" />
                   <div className="service-card-overlay" />
                   <span className="service-card-icon">{s.icon}</span>
                   <h3>{s.title}</h3>

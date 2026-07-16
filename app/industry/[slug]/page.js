@@ -10,8 +10,9 @@ export function generateStaticParams() {
   return Object.keys(industries).map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }) {
-  const industry = industries[params.slug];
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const industry = industries[slug];
   if (!industry) return {};
   return {
     title: `${industry.title} | Pixel Stack Technologies`,
@@ -19,8 +20,9 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function IndustryPage({ params }) {
-  const industry = industries[params.slug];
+export default async function IndustryPage({ params }) {
+  const { slug } = await params;
+  const industry = industries[slug];
   if (!industry) notFound();
 
   return (

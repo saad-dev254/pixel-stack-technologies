@@ -22,9 +22,7 @@ export function generateMetadata({ params }) {
 
 export default async function ServicePage({ params }) {
   const { slug } = await params;
-  console.log("slug ====> ", slug);
-  // const service = services.find((item) => item.slug === slug);
-  const service = services[params.slug];
+  const service = services[slug];
   if (!service) notFound();
 
   return (

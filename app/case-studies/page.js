@@ -44,7 +44,21 @@ export default function CaseStudies() {
           <div className="case-grid">
             {filtered.map((cs) => (
               <article className="case-card" key={cs.slug}>
-                <div className="case-card-thumb" style={{ background: cs.bg }} />
+                <div className="case-card-thumb" style={{ position: "relative", background: cs.bg }}>
+                  <img src={cs?.image_url} loading="lazy" alt="case study" className="full-image" style={{height:"200px"}} />
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: 0,
+                      background: "#0000004d",
+                      pointerEvents: "none",
+                      borderRadius: "inherit",
+                    }}
+                  ></div>
+                </div>
                 <div className="case-card-body">
                   <p className="case-client">{cs.client}</p>
                   <h3>{cs.title}</h3>

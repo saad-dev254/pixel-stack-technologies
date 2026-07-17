@@ -457,13 +457,20 @@ img { max-width: 100%; display: block; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
+  padding: 16px 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   font-family: var(--font-heading);
   font-size: 1rem;
   font-weight: 500;
   transition: color 0.2s, padding-left 0.2s;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .industry-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .industry-item:hover {
@@ -849,6 +856,11 @@ img { max-width: 100%; display: block; }
   width: 100%;
   object-fit: cover;
   object-position: center;
+  transition: filter 0.3s;
+}
+
+.insight-card:hover .full-image {
+  filter: blur(4px);
 }
 
 @media (max-width: 900px) {
@@ -1516,6 +1528,9 @@ img { max-width: 100%; display: block; }
   position: absolute;
   inset: 0%;
   /* z-index: 99999; */
+}
+.service-card:hover .absolute-full {
+  filter: blur(4px);
 }
 .marquee-client-logo {
   opacity: .8;

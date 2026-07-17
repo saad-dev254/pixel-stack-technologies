@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import PageHero from "../../components/PageHero";
 import CTASection from "../../components/CTASection";
 import { blogs } from "../../data/content";
+import InsightsSection from "../../components/InsightsSection";
 
 export const metadata = {
   title: "Learning & Blogs | Pixel Stack Technologies",
@@ -19,7 +20,7 @@ export default function Learning() {
         description="Stay ahead with our latest articles on technology, design, and digital transformation."
       />
 
-      <section className="content-section">
+      {/* <section className="content-section">
         <div className="container">
           <div className="blog-grid">
             {blogs.map((blog) => (
@@ -34,7 +35,8 @@ export default function Learning() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
+      <InsightsSection />
 
       <CTASection />
       <Footer />

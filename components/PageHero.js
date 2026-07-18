@@ -5,7 +5,7 @@ export default function PageHero({ label, title, description, ctaText, ctaHref =
     <section className={`page-hero${dark ? " page-hero-dark" : ""}`}>
       <div className="hero-bg" />
       <div className="hero-overlay" />
-      <div className="page-hero-content container">
+      <div className="page-hero-content container hero-enter">
         {label && <p className="section-label">{label}</p>}
         <h1>{title}</h1>
         {description && <p className="page-hero-desc">{description}</p>}

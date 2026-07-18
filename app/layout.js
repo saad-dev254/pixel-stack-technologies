@@ -1,4 +1,5 @@
 import "./globals.css";
+import ScrollAnimations from "../components/ScrollAnimations";
 
 export const metadata = {
   title: "Pixel Stack Technologies | Leading Software & Product Development Agency",
@@ -8,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ScrollAnimations />
+        {children}
+      </body>
     </html>
   );
 }

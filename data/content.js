@@ -7,7 +7,7 @@ export const caseStudies = [
     industry: "E-commerce",
     tags: ["Web Development", "Custom Development", "QA Testing"],
     bg: "linear-gradient(135deg, #0a3d3a, #0ebab1)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6a46cae33a28987423635e93_Shop-main.png",
+    image_url: "/assets/images/case-study/case-study-3.png",
   },
   {
     slug: "hospitality-ai",
@@ -17,7 +17,7 @@ export const caseStudies = [
     industry: "Travel & Hospitality",
     tags: ["Custom Development", "AI & Automation", "Cybersecurity"],
     bg: "linear-gradient(135deg, #1a1a2e, #16213e)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6a46c2ce0c069a0c99c1a88a_Main.png",
+    image_url: "/assets/images/case-study/case-study-4.png",
   },
   {
     slug: "fintech-ai-funding",
@@ -27,7 +27,7 @@ export const caseStudies = [
     industry: "Banking & Fintech",
     tags: ["AI & Automation", "Custom Development", "Web Development"],
     bg: "linear-gradient(135deg, #0d2137, #0ebab1)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6a4673e7b9f46864f07267b7_Main%20Image%20(1).png",
+    image_url: "/assets/images/case-study/case-study-5.png",
   },
   {
     slug: "furniture-shopify",
@@ -37,7 +37,7 @@ export const caseStudies = [
     industry: "E-commerce",
     tags: ["Web Development", "UI/UX Design", "E-commerce"],
     bg: "linear-gradient(135deg, #0c405f, #0ebab1)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6a29ceb6b42bf86f8c986108_Main%20image.png",
+    image_url: "/assets/images/case-study/case-study-6.png",
   },
   {
     slug: "hr-tech-scaleup",
@@ -47,7 +47,7 @@ export const caseStudies = [
     industry: "Human Resource",
     tags: ["Custom Development", "Web Development", "Staff Augmentation"],
     bg: "linear-gradient(135deg, #1b2838, #2c5364)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6a0cdb0cc2336f0678b58bdc_Main.png",
+    image_url: "/assets/images/case-study/case-study-7.png",
   },
   {
     slug: "proptech-ai",
@@ -57,7 +57,7 @@ export const caseStudies = [
     industry: "Real Estate",
     tags: ["AI & Automation", "Web Development", "DevOps"],
     bg: "linear-gradient(135deg, #0a1628, #0ebab1)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83dcf/6a0cd4487a53c17e9204f8e2_Main.png",
+    image_url: "/assets/images/case-study/case-study-8.png",
   },
 ];
 
@@ -68,7 +68,7 @@ export const blogs = [
     excerpt: "Discover how cloud adoption levels the playing field for small businesses competing with larger enterprises.",
     date: "March 2026",
     bg: "linear-gradient(135deg, #0a3d3a, #0ebab1)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/677e26a1461d4ae7dc6f5f9f_Recurate%402x-100.avif",
+    image_url: "/assets/images/blogs/blog-1.webp",
   },
   {
     slug: "custom-web-app-development",
@@ -76,7 +76,7 @@ export const blogs = [
     excerpt: "A comprehensive guide to planning, building, and launching custom web applications for your business.",
     date: "February 2026",
     bg: "linear-gradient(135deg, #1a1a2e, #16213e)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/677e26a1461d4ae7dc6f5f9f_Recurate%402x-100.avif",
+    image_url: "/assets/images/blogs/blog-1.webp",
   },
   {
     slug: "mobile-design-trends",
@@ -84,7 +84,7 @@ export const blogs = [
     excerpt: "Explore the latest mobile UI/UX trends shaping how users interact with apps in 2026.",
     date: "February 2026",
     bg: "linear-gradient(135deg, #0d2137, #0ebab1)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/677e26a1461d4ae7dc6f5f9f_Recurate%402x-100.avif",
+    image_url: "/assets/images/blogs/blog-1.webp",
   },
   {
     slug: "generative-ai-business",
@@ -92,7 +92,7 @@ export const blogs = [
     excerpt: "From content generation to code assistance — how GenAI is reshaping workflows across industries.",
     date: "January 2026",
     bg: "linear-gradient(135deg, #0c405f, #0ebab1)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/677e26a1461d4ae7dc6f5f9f_Recurate%402x-100.avif",
+    image_url: "/assets/images/blogs/blog-1.webp",
   },
   {
     slug: "shopify-headless-guide",
@@ -100,7 +100,7 @@ export const blogs = [
     excerpt: "When and why to go headless with Shopify — a practical decision framework for merchants.",
     date: "January 2026",
     bg: "linear-gradient(135deg, #1b2838, #2c5364)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/677e26a1461d4ae7dc6f5f9f_Recurate%402x-100.avif",
+    image_url: "/assets/images/blogs/blog-1.webp",
   },
   {
     slug: "salesforce-implementation",
@@ -108,15 +108,15 @@ export const blogs = [
     excerpt: "Common pitfalls in CRM implementations and how to get it right the first time.",
     date: "December 2025",
     bg: "linear-gradient(135deg, #0a1628, #0ebab1)",
-    image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/677e26a1461d4ae7dc6f5f9f_Recurate%402x-100.avif",
+    image_url: "/assets/images/blogs/blog-1.webp",
   },
-];
+]; 
 
 export const insights = [
-  { tag: "Case Study", image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/677e26a1461d4ae7dc6f5f9f_Recurate%402x-100.avif", title: "E-commerce Platform Scales to 50K Monthly Transactions", bg: "linear-gradient(135deg, #0a3d3a, #0ebab1)", href: "/case-studies" },
-  { tag: "Blog", image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/67321c409e575f0f0e264d3f_linkedin-sales-solutions--AXDunSs-n4-unsplash.webp", title: "How Cloud Computing Can Transform Small Businesses", bg: "linear-gradient(135deg, #1a1a2e, #16213e)", href: "/learning" },
-  { tag: "Blog", image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/674703369b972f18df57ceb8_Custom%20Web%20Application%20Development.avif", title: "Custom Web Application Development: Everything You Need to Know", bg: "linear-gradient(135deg, #0d2137, #0ebab1)", href: "/learning" },
-  { tag: "Case Study", image_url: "https://cdn.prod.website-files.com/6719ad0ceed6d5aa24a83d61/674703370ee5ac69d196b247_How%20Generative%20AI%20is%20Transforming%20Business%20Operations.avif", title: "Fintech AI Platform Secures $1M+ in Seed Funding", bg: "linear-gradient(135deg, #0c405f, #0ebab1)", href: "/case-studies" },
+  { tag: "Case Study", image_url: "/assets/images/case-study/case-study-1.avif", title: "E-commerce Platform Scales to 50K Monthly Transactions", bg: "linear-gradient(135deg, #0a3d3a, #0ebab1)", href: "/case-studies" },
+  { tag: "Blog", image_url: "/assets/images/blogs/blog-1.webp", title: "How Cloud Computing Can Transform Small Businesses", bg: "linear-gradient(135deg, #1a1a2e, #16213e)", href: "/learning" },
+  { tag: "Blog", image_url: "/assets/images/blogs/blog-2.avif", title: "Custom Web Application Development: Everything You Need to Know", bg: "linear-gradient(135deg, #0d2137, #0ebab1)", href: "/learning" },
+  { tag: "Case Study", image_url: "/assets/images/case-study/case-study-2.avif", title: "Fintech AI Platform Secures $1M+ in Seed Funding", bg: "linear-gradient(135deg, #0c405f, #0ebab1)", href: "/case-studies" },
 ];
 
 export const leadership = [
@@ -131,7 +131,7 @@ export const leadership = [
 ];
 
 export const offices = [
-  { city: "Lahore", country: "Pakistan", type: "Head Office", address: "Plot B, 281 Ghazi Rd, Lahore, Punjab" },
+  { city: "Karachi", country: "Pakistan", type: "Head Office", address: "Plot B, 281 Ghazi Rd, Karachi, Sindh" },
   { city: "Islamabad", country: "Pakistan", type: "Delivery Center", address: "102 China Rd, I-10/3, Islamabad" },
   { city: "San Jose", country: "United States", type: "US Office", address: "18 S 2nd Street #120, San Jose, CA 95113" },
   { city: "Dubai", country: "UAE", type: "MENA Office", address: "Jumeirah Lakes Towers, Dubai" },

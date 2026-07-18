@@ -149,7 +149,7 @@ export default function Home() {
               <Link href={`/services/${s.slug}`} className="service-card-link" key={s.slug}>
                 <article className="service-card">
                   <div className={`service-card-bg ${s.bg}`} />
-                  <img src={`/assets/images/${s?.image_title}`} loading="lazy" alt={s?.title} className="absolute-full" />
+                  <img src={s?.image_url} loading="lazy" alt={s?.title} className="absolute-full" />
                   <div className="service-card-overlay" />
                   <span className="service-card-icon">{s.icon}</span>
                   <h3>{s.title}</h3>

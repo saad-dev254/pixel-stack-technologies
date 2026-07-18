@@ -1,7 +1,7 @@
 export const services = {
   "web-development": {
     slug: "web-development",
-    image_title: "web-development.avif",
+    image_url: "/assets/images/services/web-development.avif",
     title: "Web Development",
     hero: "Best Custom Website Development Services",
     description: "Enterprise-grade and customized web development services tailored to meet the evolving demands of modern businesses.",
@@ -26,7 +26,7 @@ export const services = {
   },
   "mobile-development": {
     title: "Mobile App Development",
-    image_title: "mob-development.avif",
+    image_url: "/assets/images/services/mob-development.avif",
     hero: "Native & Cross-Platform Mobile Solutions",
     description: "Build powerful mobile applications that deliver exceptional user experiences on iOS and Android.",
     overview: "From concept to launch, we create mobile apps that users love — native, hybrid, or cross-platform.",
@@ -50,7 +50,7 @@ export const services = {
   },
   "custom-development": {
     title: "Custom Software Development",
-    image_title: "custom-software-development.webp",
+    image_url: "/assets/images/services/custom-software-development.webp",
     hero: "Tailored Software Solutions for Your Business",
     description: "Custom-built software that solves your unique challenges and scales with your growth.",
     overview: "We translate complex business requirements into robust, maintainable software systems.",
@@ -74,7 +74,7 @@ export const services = {
   },
   "ui-ux-design": {
     title: "UI/UX Design",
-    image_title: "ui-ux-design.avif",
+    image_url: "/assets/images/services/ui-ux-design.avif",
     hero: "Design Experiences That Convert",
     description: "User-centered design that transforms how people interact with your digital products.",
     overview: "We combine research, strategy, and creativity to craft interfaces that are beautiful and functional.",
@@ -98,7 +98,7 @@ export const services = {
   },
   "ai-automation": {
     title: "AI & Automation",
-    image_title: "ai-automation.avif",
+    image_url: "/assets/images/services/ai-automation.avif",
     hero: "Intelligent Solutions Powered by AI",
     description: "Harness the power of artificial intelligence to automate workflows and unlock new capabilities.",
     overview: "From custom copilots to predictive analytics, we build AI systems that deliver measurable ROI.",
@@ -145,7 +145,7 @@ export const services = {
   // },
   "generative-ai": {
     title: "Generative AI",
-    image_title: "generative-ai.avif",
+    image_url: "/assets/images/services/generative-ai.avif",
     hero: "Generative AI Development Services",
     description: "Expert generative AI solutions designed to accelerate your digital transformation with LLMs, copilots, and custom AI models.",
     overview: "Using advanced technologies like TensorFlow, PyTorch, and GPT architectures, we create tailored AI solutions that enable businesses to innovate with precision and creativity.",
@@ -169,7 +169,7 @@ export const services = {
   },
   devops: {
     title: "DevOps",
-    image_title: "devops.avif",
+    image_url: "/assets/images/services/devops.avif",
     hero: "DevOps Consulting & Automation Services",
     description: "Optimize software delivery through cutting-edge DevOps practices — automation, collaboration, and advanced tooling.",
     overview: "We help you achieve scalability, speed, and security in every deployment by integrating CI/CD, IaC, and cloud-native practices.",
@@ -193,7 +193,7 @@ export const services = {
   },
   cybersecurity: {
     title: "Cybersecurity",
-    image_title: "cyber-security.avif",
+    image_url: "/assets/images/services/cyber-security.avif",
     hero: "Enterprise Cybersecurity Solutions",
     description: "Protect your digital assets with comprehensive security strategies, threat detection, and compliance frameworks.",
     overview: "We embed security at every layer — from application hardening to infrastructure monitoring — keeping your business resilient against evolving threats.",
@@ -217,7 +217,7 @@ export const services = {
   },
   "data-analytics": {
     title: "Data Analytics & Insights",
-    image_title: "data-analytics.avif",
+    image_url: "/assets/images/services/data-analytics.avif",
     hero: "Data-Driven Business Intelligence",
     description: "Transform raw data into actionable insights with advanced analytics, dashboards, and predictive modeling.",
     overview: "We help organizations harness their data to make smarter decisions, optimize operations, and uncover growth opportunities.",
@@ -241,7 +241,7 @@ export const services = {
   },
   "dynamics-365-erp": {
     title: "Dynamics 365 ERP",
-    image_title: "dynamics-365.avif",
+    image_url: "/assets/images/services/dynamics-365.avif",
     hero: "Microsoft Dynamics 365 ERP Solutions",
     description: "Streamline business operations with tailored Dynamics 365 ERP implementations and integrations.",
     overview: "We deliver end-to-end ERP solutions that unify finance, supply chain, and operations on the Microsoft cloud platform.",
@@ -311,7 +311,7 @@ export const services = {
   // },
   "cloud-application": {
     title: "Cloud Application",
-    image_title: "cloud-application.avif",
+    image_url: "/assets/images/services/cloud-application.avif",
     hero: "Cloud-Native Application Development",
     description: "Build scalable, resilient applications designed for the cloud from day one.",
     overview: "We architect and develop cloud-native apps using microservices, containers, and serverless technologies for maximum agility.",
@@ -335,7 +335,7 @@ export const services = {
   },
   "cloud-maintenance": {
     title: "Cloud Maintenance & Integration",
-    image_title: "cloud-maintainance.avif",
+    image_url: "/assets/images/services/cloud-maintainance.avif",
     hero: "Cloud Maintenance & Integration Services",
     description: "Keep your cloud infrastructure running smoothly with proactive maintenance and seamless integrations.",
     overview: "We provide ongoing cloud ops support — monitoring, patching, cost optimization, and system integrations to keep your stack healthy.",
@@ -428,7 +428,7 @@ export const services = {
   // },
   blockchain: {
     title: "Blockchain & Cryptography",
-    image_title: "blockchain.avif",
+    image_url: "/assets/images/services/blockchain.avif",
     hero: "Blockchain & Cryptography Solutions",
     description: "Secure, transparent blockchain solutions for DeFi, NFTs, supply chain, and enterprise applications.",
     overview: "We build decentralized applications, smart contracts, and blockchain integrations that bring trust and transparency to your operations.",
@@ -452,7 +452,7 @@ export const services = {
   },
   "game-development": {
     title: "Game Development",
-    image_title: "game-development.avif",
+    image_url: "/assets/images/services/game-development.avif",
     hero: "Professional Game Development Services",
     description: "End-to-end game development for mobile, PC, and console platforms with engaging gameplay and stunning visuals.",
     overview: "From casual mobile games to complex multiplayer experiences, we bring your game concepts to life with proven engines and pipelines.",
@@ -545,7 +545,7 @@ export const services = {
   // },
   "quality-assurance": {
     title: "Quality Assurance",
-    image_title: "quality-assurance.avif",
+    image_url: "/assets/images/services/quality-assurance.avif",
     hero: "QA Testing & Automation Services",
     description: "Comprehensive quality assurance to ensure your software is reliable, performant, and bug-free.",
     overview: "From manual testing to fully automated CI/CD test pipelines, we catch defects early and protect your release quality.",
@@ -569,7 +569,7 @@ export const services = {
   },
   saas: {
     title: "SaaS",
-    image_title: "saas.avif",
+    image_url: "/assets/images/services/saas.avif",
     hero: "SaaS Product Development",
     description: "Build and scale multi-tenant SaaS platforms with subscription billing, analytics, and enterprise features.",
     overview: "We engineer SaaS products from MVP to enterprise scale — with robust architecture, billing integration, and tenant isolation.",
@@ -593,7 +593,7 @@ export const services = {
   },
   shopify: {
     title: "Shopify",
-    image_title: "shopify.avif",
+    image_url: "/assets/images/services/shopify.avif",
     hero: "Shopify Development & Migration Services",
     description: "Expert Shopify and Shopify Plus development, migration, and optimization for growing e-commerce brands.",
     overview: "We help merchants launch, migrate, and scale on Shopify with custom themes, apps, and headless commerce architectures.",
@@ -617,7 +617,7 @@ export const services = {
   },
   salesforce: {
     title: "Salesforce",
-    image_title: "salesforce.avif",
+    image_url: "/assets/images/services/salesforce.avif",
     hero: "Salesforce Implementation & Development",
     description: "Maximize your Salesforce investment with expert implementation, customization, and integration services.",
     overview: "We deliver Salesforce solutions that align with your sales, service, and marketing processes — avoiding common implementation pitfalls.",
@@ -641,7 +641,7 @@ export const services = {
   },
   "design-development": {
     title: "Design & Development",
-    image_title: "design-and-development.avif",
+    image_url: "/assets/images/services/design-and-development.avif",
     hero: "End-to-End Design & Development",
     description: "Unified design and development services that take your product from concept to launch seamlessly.",
     overview: "We bridge the gap between design and engineering — ensuring pixel-perfect implementation of beautiful, functional products.",
@@ -665,7 +665,7 @@ export const services = {
   },
   "maintenance-support": {
     title: "Maintenance & Support",
-    image_title: "maintainance-and-support.avif",
+    image_url: "/assets/images/services/maintainance-and-support.avif",
     hero: "Software Maintenance & Support Services",
     description: "Keep your applications running smoothly with proactive maintenance, updates, and dedicated support.",
     overview: "We provide ongoing care for your digital products — bug fixes, security patches, performance tuning, and feature enhancements.",
@@ -689,7 +689,7 @@ export const services = {
   },
   // "automation-apps": {
   //   title: "Automation & Apps",
-  //   image_title: "shopify.avif",
+  //   image_url: "/assets/images/services/shopify.avif",
   //   hero: "Business Process Automation & Apps",
   //   description: "Automate repetitive workflows and build custom apps that boost team productivity.",
   //   overview: "From RPA bots to custom internal tools, we eliminate manual work and connect your business systems for seamless operations.",
@@ -715,7 +715,7 @@ export const services = {
 
 export const serviceList = Object.entries(services).map(([slug, s]) => ({
   slug,
-  image_title: s.image_title,
+  image_url: s.image_url,
   title: s.title,
   desc: s.description,
   icon: s.icon,

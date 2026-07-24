@@ -80,8 +80,11 @@ export default function AboutUs() {
 
       <section className="content-section">
         <div className="container">
-          <p className="section-label">Leadership</p>
-          <h2 className="section-title">Our Leadership</h2>
+          <p className="section-label">Team</p>
+          <h2 className="section-title">Our Team</h2>
+          <p className="section-label" style={{color: "#000", marginTop: "1rem", textTransform: "none"}}>
+            Behind every successful project is a team of talented developers who turn ideas into reality. Their creativity, technical expertise, and dedication drive our innovation and help us deliver reliable, high-quality solutions for our clients.
+          </p>
           <div className="leadership-grid">
             {leadership.map((leader) => (
               <div className="leader-card" key={leader.name}>

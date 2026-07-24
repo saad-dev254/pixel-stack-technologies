@@ -663,7 +663,7 @@ export const services = {
     icon: "🖌️",
     bg: "s4",
   },
-  "maintenance-support": {
+  "maintenance-and-support": {
     title: "Maintenance & Support",
     image_url: "/assets/images/services/maintainance-and-support.avif",
     hero: "Software Maintenance & Support Services",
